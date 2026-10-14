@@ -1,0 +1,17 @@
+{
+  "name": "weinc",
+  "owner": {
+    "name": "WeInc",
+    "url": "https://we.inc"
+  },
+  "plugins": [
+    {
+      "name": "weinc",
+      "source": "./",
+      "description": "Plan, start and polish websites with WeInc from Claude."
+    }
+  ],
+  "metadata": {
+    "description": "WeInc plugins for Claude Code"
+  }
+}

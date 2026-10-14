@@ -1,0 +1,19 @@
+{
+  "name": "weinc",
+  "displayName": "WeInc",
+  "version": "0.1.0",
+  "description": "Plan, start and polish websites with WeInc from Claude: write a full brief, start the build, and run a pre-launch check.",
+  "author": {
+    "name": "WeInc",
+    "url": "https://we.inc"
+  },
+  "homepage": "https://we.inc",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "website-builder",
+    "agency",
+    "mcp"
+  ],
+  "repository": "https://github.com/umairalisadaqat/weinc-claude-plugin"
+}
