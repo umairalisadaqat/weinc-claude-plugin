@@ -15,5 +15,7 @@
     "agency",
     "mcp"
   ],
-  "repository": "https://github.com/umairalisadaqat/weinc-claude-plugin"
+  "repository": "https://github.com/umairalisadaqat/weinc-claude-plugin",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://we.inc/privacy"
 }
