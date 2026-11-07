@@ -1,10 +1,11 @@
 {
   "name": "weinc",
   "displayName": "WeInc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Get a finished website for your business in seconds and put it online, without leaving Claude. Also: custom AI-designed sites, change requests and a pre-launch check.",
   "author": {
     "name": "WeInc",
+    "email": "hey@we.inc",
     "url": "https://we.inc"
   },
   "homepage": "https://we.inc",

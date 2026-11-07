@@ -1,6 +1,6 @@
 ---
 name: website-brief
-description: Interview the user about their business and write a complete website brief, then start the WeInc build with start_website. Use when someone wants a new website built with WeInc.
+description: Interview the user about their business and write a complete website brief, then start the WeInc build with start_website. Use when someone wants a custom WeInc website designed by AI.
 ---
 
 # Website brief

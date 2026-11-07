@@ -1,6 +1,6 @@
 ---
 name: instant-website
-description: Make a finished WeInc website for the user's business in seconds and, if they want, put it online. Use when someone asks for a website and wants it now, without a long interview.
+description: Make a finished WeInc website for the user's business in seconds and, if they want, put it online. Use when someone wants a WeInc website made now from a ready-made design, without a long interview.
 ---
 
 # Instant website
