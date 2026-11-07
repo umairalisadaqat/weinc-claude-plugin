@@ -1,6 +1,8 @@
 # WeInc plugin for Claude Code
 
-Connects Claude Code to WeInc (https://we.inc) and adds three skills:
+Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds four skills:
+
+- **instant-website**: a finished site from a ready-made design in seconds (no AI credits), then publish it to a live weinc.app address if you want.
 
 - **website-brief**: interviews you about your business, writes a full brief, and starts the build (you confirm in your browser).
 - **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
@@ -28,7 +30,8 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 
 ## Use
 
-- "Build me a website for my bakery" (or `/weinc:website-brief`)
+- "Make me a website for my bakery and put it online" (or `/weinc:instant-website`)
+- "Design a custom site for my bakery" (or `/weinc:website-brief`)
 - "I'm about to publish, check my site" (or `/weinc:launch-checklist`)
 - "Onboard a new client for my agency" (or `/weinc:agency-onboarding`)
 

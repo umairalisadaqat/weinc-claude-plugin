@@ -5,6 +5,8 @@ description: Interview the user about their business and write a complete websit
 
 # Website brief
 
+If the user just wants a site now, use the `instant-website` skill instead: it makes a finished site in seconds. Use this skill for a custom AI-designed site.
+
 Goal: a brief so complete that the first version of the site is close to right.
 
 ## 1. Interview (one short group of questions at a time)
