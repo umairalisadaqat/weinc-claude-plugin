@@ -1,7 +1,7 @@
 {
   "name": "weinc",
   "displayName": "WeInc",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Get a finished website for your business in seconds and put it online, without leaving Claude. Also: custom AI-designed sites, change requests and a pre-launch check.",
   "author": {
     "name": "WeInc",
@@ -16,7 +16,6 @@
     "landing-page",
     "small-business",
     "publish",
-    "agency",
     "mcp"
   ],
   "repository": "https://github.com/umairalisadaqat/weinc-claude-plugin",

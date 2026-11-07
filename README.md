@@ -1,12 +1,11 @@
 # WeInc plugin for Claude Code
 
-Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds four skills:
+Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds three skills:
 
 - **instant-website**: a finished site from a ready-made design in seconds (no AI credits), then publish it to a live weinc.app address if you want.
 
 - **website-brief**: interviews you about your business, writes a full brief, and starts the build (you confirm in your browser).
 - **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
-- **agency-onboarding**: for agency accounts: create a client, create their site, share preview links.
 
 ## Install
 
@@ -33,7 +32,6 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 - "Make me a website for my bakery and put it online" (or `/weinc:instant-website`)
 - "Design a custom site for my bakery" (or `/weinc:website-brief`)
 - "I'm about to publish, check my site" (or `/weinc:launch-checklist`)
-- "Onboard a new client for my agency" (or `/weinc:agency-onboarding`)
 
 ## WeInc MCP server (any MCP client)
 
@@ -74,20 +72,6 @@ For your own websites:
 | `website_details` | Shows one website: published state, live URL, custom domains, last publish time. |
 | `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. |
 
-For agency (organization) accounts:
-
-| Tool | What it does |
-| --- | --- |
-| `list_projects` | Lists the organization's builder projects. |
-| `create_project` | Creates a project for one of your clients. |
-| `get_project` | Gets one project by id. |
-| `update_project` | Updates a project's name, description or status. |
-| `get_preview_urls` | Gets published and preview URLs for a project. |
-| `list_clients` | Lists your clients. |
-| `create_client` | Creates a client. |
-| `list_templates` | Lists your organization's templates. |
-| `list_plans` | Lists your client-facing plans. |
-| `get_analytics` | Aggregated analytics for the organization or one project. |
 
 ## Support
 
