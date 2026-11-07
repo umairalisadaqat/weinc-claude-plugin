@@ -7,6 +7,12 @@ description: Make a finished WeInc website for the user's business in seconds an
 
 Goal: the user has a real website in their WeInc account within a minute, and a live address if they want one.
 
+## 0. Make sure WeInc is connected
+
+If the WeInc tools are not available or say you are not signed in, tell the user how to connect, then continue:
+- Claude Code: run `/mcp`, pick **weinc** and sign in (a WeInc account is free to create on the sign-in page).
+- Claude web, desktop or mobile: open https://claude.ai/directory/weinc, choose Connect and sign in.
+
 ## 1. Get the basics (one short message)
 
 You need the business name and what the business does. City, phone, email and a one-line description help. Skip anything the user already said. Never make up contact details, reviews or numbers.
