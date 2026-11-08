@@ -1,6 +1,6 @@
 ---
 name: instant-website
-description: Make a finished WeInc website for the user's business in seconds and, if they want, put it online. Use when someone wants a WeInc website made now from a ready-made design, without a long interview.
+description: Make a finished WeInc website for the user's business in seconds and, if they want, put it online. Use when someone wants a WeInc website made now, without a long interview.
 ---
 
 # Instant website
@@ -19,7 +19,7 @@ You need the business name and what the business does. City, phone, email and a 
 
 ## 2. Make the site
 
-Call `create_website_from_template` with what you have. Leave `template_id` out to get the best-matching design, or call `find_templates` first if the user wants to choose a look. This uses no AI credits.
+Call `create_website` with what you have. Leave `style_id` out to get the best-matching style, or call `browse_styles` first if the user wants to choose a look. This uses no AI credits.
 
 Show the result: the site name, the preview and the editor link.
 

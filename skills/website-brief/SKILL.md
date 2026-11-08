@@ -23,7 +23,7 @@ Ask, and skip anything the user already told you:
 8. **Photos and logo**: ask whether they have their own. If they do, tell them they can add them in the WeInc editor after the build starts.
 9. **Proof**: real testimonials, awards or certifications only if the user supplies them. Never invent reviews, numbers or claims.
 
-Optional: call `find_templates` with the business type and show the user a few matching designs to choose from.
+Optional: call `browse_styles` with the business type and show the user a few matching styles to choose from.
 
 ## 2. Write the brief
 
@@ -43,6 +43,6 @@ Mark anything unknown as "to be added" instead of guessing.
 
 ## 3. Start the build
 
-When the user approves, call `start_website` with the full brief as the description (and the chosen template, if one was picked). The tool returns a link. Tell the user to open it and confirm in their browser; the build starts there, not in this chat.
+When the user approves, call `start_website` with the full brief as the description (and the chosen style_id, if one was picked). The tool returns a link. Tell the user to open it and confirm in their browser; the build starts there, not in this chat.
 
 Afterwards, suggest the `launch-checklist` skill before they publish.

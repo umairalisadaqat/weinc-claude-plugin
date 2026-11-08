@@ -2,7 +2,7 @@
 
 Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds three skills:
 
-- **instant-website**: a finished site from a ready-made design in seconds (no AI credits), then publish it to a live weinc.app address if you want.
+- **instant-website**: a finished site in seconds (no AI credits), then publish it to a live weinc.app address if you want.
 
 - **website-brief**: interviews you about your business, writes a full brief, and starts the build (you confirm in your browser).
 - **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
@@ -67,8 +67,8 @@ All tools work on your own WeInc websites only.
 | Tool | What it does |
 | --- | --- |
 | `start_website` | Prepares a custom AI-designed website from a description of the business. Returns a link; nothing is built until you confirm in your browser. |
-| `find_templates` | Searches WeInc's ready-made designs by type of business or keyword. |
-| `create_website_from_template` | Makes a draft website in your account from a ready-made design, filled in with the business details you give, and shows a picture of it. Not published. |
+| `browse_styles` | Shows website styles to choose from, by type of business or keyword. |
+| `create_website` | Builds a finished draft website in your account in seconds with the business details you give, and shows a picture of it. Not published. |
 | `my_websites` | Lists your websites with status, live address, editor link and last update. |
 | `website_details` | Shows one website: published state, live address, custom domains, last publish time. |
 | `publish_website` | Puts one of your websites online at its weinc.app address. Only runs when you ask; Claude asks you to confirm first. |
