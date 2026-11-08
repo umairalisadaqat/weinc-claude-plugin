@@ -60,18 +60,19 @@ Manual config for clients that read `mcp.json`:
 }
 ```
 
-### Tools (15)
+### Tools (7)
 
-For your own websites:
+All tools work on your own WeInc websites only.
 
 | Tool | What it does |
 | --- | --- |
-| `start_website` | Prepares a new website from a description of the business. Returns a link; nothing is built or charged until you confirm in your browser. |
-| `find_templates` | Searches WeInc website templates by keyword or category. |
-| `my_websites` | Lists your websites with live URL, editor link and last update. |
-| `website_details` | Shows one website: published state, live URL, custom domains, last publish time. |
-| `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. |
-
+| `start_website` | Prepares a custom AI-designed website from a description of the business. Returns a link; nothing is built until you confirm in your browser. |
+| `find_templates` | Searches WeInc's ready-made designs by type of business or keyword. |
+| `create_website_from_template` | Makes a draft website in your account from a ready-made design, filled in with the business details you give, and shows a picture of it. Not published. |
+| `my_websites` | Lists your websites with status, live address, editor link and last update. |
+| `website_details` | Shows one website: published state, live address, custom domains, last publish time. |
+| `publish_website` | Puts one of your websites online at its weinc.app address. Only runs when you ask; Claude asks you to confirm first. |
+| `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. Nothing changes until you confirm in WeInc. |
 
 ## Support
 

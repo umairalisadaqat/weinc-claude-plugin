@@ -25,7 +25,7 @@ Show the result: the site name, the preview and the editor link.
 
 ## 3. Offer to publish
 
-Ask: "Want me to put it online now?" Only if the user says yes, call `publish_website` with the site id. Share the live address it returns. If the free plan's limit is reached, say so plainly and share the link the tool returns.
+Ask: "Want me to put it online now?" Only if the user says yes, call `publish_website` with the site id. Share the live address it returns. If the tool says the account's limit of live sites is reached, say so plainly and suggest the user manages their plan or published sites in their WeInc dashboard at my.we.inc. Do not invent a link.
 
 ## 4. Next steps
 
