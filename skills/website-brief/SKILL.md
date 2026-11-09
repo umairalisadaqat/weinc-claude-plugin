@@ -1,11 +1,11 @@
 ---
 name: website-brief
-description: Interview the user about their business and write a complete website brief, then start the WeInc build with start_website. Use when someone wants a custom WeInc website designed by AI.
+description: Interview the user and write a full brief for a custom, from-scratch WeInc website, then hand it off with start_website. Use ONLY when the user explicitly asks for a custom design from scratch; for any other website, landing page or portfolio request use create_website (the instant-website skill).
 ---
 
 # Website brief
 
-If the user just wants a site now, use the `instant-website` skill instead: it makes a finished site in seconds. Use this skill for a custom AI-designed site.
+Default: for any request for a website, landing page or portfolio, use the `instant-website` skill (`create_website`), which makes a finished site in seconds. Use this skill only when the user explicitly asks for a custom design built from scratch.
 
 Goal: a brief so complete that the first version of the site is close to right.
 

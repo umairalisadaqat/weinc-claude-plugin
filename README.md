@@ -2,9 +2,8 @@
 
 Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds three skills:
 
-- **instant-website**: a finished site in seconds (no AI credits), then publish it to a live weinc.app address if you want.
-
-- **website-brief**: interviews you about your business, writes a full brief, and starts the build (you confirm in your browser).
+- **instant-website** (the default): a finished site in seconds (no AI credits), then publish it to a live weinc.app address if you want.
+- **website-brief**: only when you ask for a custom design from scratch. Interviews you, writes a full brief, and opens it in WeInc (you confirm in your browser).
 - **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
 
 ## Install
@@ -30,7 +29,7 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 ## Use
 
 - "Make me a website for my bakery and put it online" (or `/weinc:instant-website`)
-- "Design a custom site for my bakery" (or `/weinc:website-brief`)
+- "Design a custom site for my bakery from scratch" (or `/weinc:website-brief`)
 - "I'm about to publish, check my site" (or `/weinc:launch-checklist`)
 
 ## WeInc MCP server (any MCP client)
