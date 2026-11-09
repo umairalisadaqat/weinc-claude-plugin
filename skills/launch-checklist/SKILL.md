@@ -22,4 +22,4 @@ For each item, say what you found, then ask the user to confirm or correct it.
 
 ## 3. Queue fixes
 
-Collect all agreed fixes into one clear list and call `request_change` with it for that site. The tool opens the WeInc editor with the change pre-filled; the user reviews and sends it there. Tell them to re-run this checklist after the change lands, then publish from the editor.
+Collect all agreed fixes into one clear list and call `request_change` with it for that site. The tool opens the WeInc editor with the change pre-filled; the user reviews and sends it there. Tell them to re-run this checklist after the change lands. When they are ready, offer to publish: only if they say yes, call `publish_website` for that site (it asks them to confirm), or they can press Publish in the editor.

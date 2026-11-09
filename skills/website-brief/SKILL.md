@@ -1,9 +1,11 @@
 ---
 name: website-brief
-description: Interview the user about their business and write a complete website brief, then start the WeInc build with start_website. Use when someone wants a new website built with WeInc.
+description: Interview the user and write a full brief for a custom, from-scratch WeInc website, then hand it off with start_website. Use ONLY when the user explicitly asks for a custom design from scratch; for any other website, landing page or portfolio request use create_website (the instant-website skill).
 ---
 
 # Website brief
+
+Default: for any request for a website, landing page or portfolio, use the `instant-website` skill (`create_website`), which makes a finished site in seconds. Use this skill only when the user explicitly asks for a custom design built from scratch.
 
 Goal: a brief so complete that the first version of the site is close to right.
 
@@ -21,7 +23,7 @@ Ask, and skip anything the user already told you:
 8. **Photos and logo**: ask whether they have their own. If they do, tell them they can add them in the WeInc editor after the build starts.
 9. **Proof**: real testimonials, awards or certifications only if the user supplies them. Never invent reviews, numbers or claims.
 
-Optional: call `find_templates` with the business type and show the user a few matching designs to choose from.
+Optional: call `browse_styles` with the business type and show the user a few matching styles to choose from.
 
 ## 2. Write the brief
 
@@ -41,6 +43,6 @@ Mark anything unknown as "to be added" instead of guessing.
 
 ## 3. Start the build
 
-When the user approves, call `start_website` with the full brief as the description (and the chosen template, if one was picked). The tool returns a link. Tell the user to open it and confirm in their browser; the build starts there, not in this chat.
+When the user approves, call `start_website` with the full brief as the description (and the chosen style_id, if one was picked). The tool returns a link. Tell the user to open it and confirm in their browser; the build starts there, not in this chat.
 
 Afterwards, suggest the `launch-checklist` skill before they publish.

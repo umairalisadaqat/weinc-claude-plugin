@@ -1,10 +1,10 @@
 # WeInc plugin for Claude Code
 
-Connects Claude Code to WeInc (https://we.inc) and adds three skills:
+Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds three skills:
 
-- **website-brief**: interviews you about your business, writes a full brief, and starts the build (you confirm in your browser).
+- **instant-website** (the default): a finished site in seconds (no AI credits), then publish it to a live weinc.app address if you want.
+- **website-brief**: only when you ask for a custom design from scratch. Interviews you, writes a full brief, and opens it in WeInc (you confirm in your browser).
 - **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
-- **agency-onboarding**: for agency accounts: create a client, create their site, share preview links.
 
 ## Install
 
@@ -28,9 +28,9 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 
 ## Use
 
-- "Build me a website for my bakery" (or `/weinc:website-brief`)
+- "Make me a website for my bakery and put it online" (or `/weinc:instant-website`)
+- "Design a custom site for my bakery from scratch" (or `/weinc:website-brief`)
 - "I'm about to publish, check my site" (or `/weinc:launch-checklist`)
-- "Onboard a new client for my agency" (or `/weinc:agency-onboarding`)
 
 ## WeInc MCP server (any MCP client)
 
@@ -59,32 +59,19 @@ Manual config for clients that read `mcp.json`:
 }
 ```
 
-### Tools (15)
+### Tools (7)
 
-For your own websites:
-
-| Tool | What it does |
-| --- | --- |
-| `start_website` | Prepares a new website from a description of the business. Returns a link; nothing is built or charged until you confirm in your browser. |
-| `find_templates` | Searches WeInc website templates by keyword or category. |
-| `my_websites` | Lists your websites with live URL, editor link and last update. |
-| `website_details` | Shows one website: published state, live URL, custom domains, last publish time. |
-| `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. |
-
-For agency (organization) accounts:
+All tools work on your own WeInc websites only.
 
 | Tool | What it does |
 | --- | --- |
-| `list_projects` | Lists the organization's builder projects. |
-| `create_project` | Creates a project for one of your clients. |
-| `get_project` | Gets one project by id. |
-| `update_project` | Updates a project's name, description or status. |
-| `get_preview_urls` | Gets published and preview URLs for a project. |
-| `list_clients` | Lists your clients. |
-| `create_client` | Creates a client. |
-| `list_templates` | Lists your organization's templates. |
-| `list_plans` | Lists your client-facing plans. |
-| `get_analytics` | Aggregated analytics for the organization or one project. |
+| `start_website` | Prepares a custom AI-designed website from a description of the business. Returns a link; nothing is built until you confirm in your browser. |
+| `browse_styles` | Shows website styles to choose from, by type of business or keyword. |
+| `create_website` | Builds a finished draft website in your account in seconds with the business details you give, and shows a picture of it. Not published. |
+| `my_websites` | Lists your websites with status, live address, editor link and last update. |
+| `website_details` | Shows one website: published state, live address, custom domains, last publish time. |
+| `publish_website` | Puts one of your websites online at its weinc.app address. Only runs when you ask; Claude asks you to confirm first. |
+| `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. Nothing changes until you confirm in WeInc. |
 
 ## Support
 

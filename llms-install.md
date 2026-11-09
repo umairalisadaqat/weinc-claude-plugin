@@ -19,4 +19,4 @@ Use `"type": "http"` instead if the client does not recognise `streamableHttp`.
 
 2. No API key or environment variables are needed. On first use the client opens a browser window where the user signs in to their WeInc account (OAuth 2.1 with dynamic client registration). A free account can be created at https://we.inc.
 
-3. Verify by listing tools. Expected tools: start_website, find_templates, my_websites, website_details, request_change, list_projects, create_project, get_project, update_project, get_preview_urls, list_clients, create_client, list_templates, list_plans, get_analytics.
+3. Verify by listing tools. Expected tools: create_website, publish_website, start_website, browse_styles, my_websites, website_details, request_change.
