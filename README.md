@@ -72,6 +72,10 @@ All tools work on your own WeInc websites only.
 | `website_details` | Shows one website: published state, live address, custom domains, last publish time. |
 | `publish_website` | Puts one of your websites online at its weinc.app address. Only runs when you ask; Claude asks you to confirm first. |
 | `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. Nothing changes until you confirm in WeInc. |
+| `read_website` | Reads the words on one of your websites (headlines, paragraphs, services and what they cost, hours, button labels), each with an id. Read-only. |
+| `edit_website` | Changes the words on one of your websites in the chat. Text only. An undo point is stored first; a live site shows the change after it is published again. |
+| `check_domain` | Checks whether a domain name is free and what it costs a year, and suggests free names. Read-only: nothing is bought from the chat; you confirm and pay on WeInc. |
+| `website_enquiries` | Lists what visitors sent through the forms on your websites: who wrote, how to reach them, what they said and when. Read-only. |
 
 ## Support
 
