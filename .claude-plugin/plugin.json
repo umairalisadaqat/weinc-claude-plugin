@@ -1,8 +1,8 @@
 {
   "name": "weinc",
   "displayName": "WeInc",
-  "version": "0.4.0",
-  "description": "Get a finished website for your business in seconds, change its wording, put it online, check a domain name and read your enquiries, without leaving Claude. Also: custom AI-designed sites and a pre-launch check.",
+  "version": "0.5.0",
+  "description": "Put the page Claude made online, or get a finished website for your business in seconds, on your own domain, with online booking and changes by chat, without leaving Claude.",
   "author": {
     "name": "WeInc",
     "email": "hey@we.inc",
