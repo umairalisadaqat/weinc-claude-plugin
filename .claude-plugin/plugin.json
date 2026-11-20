@@ -1,8 +1,8 @@
 {
   "name": "weinc",
   "displayName": "WeInc",
-  "version": "0.5.0",
-  "description": "Put the page Claude made online, or get a finished website for your business in seconds, on your own domain, with online booking and changes by chat, without leaving Claude.",
+  "version": "0.6.0",
+  "description": "A live website with its own link in seconds, right from Claude. Describe your business or paste a page from the chat, and WeInc puts it online; check and connect your own domain too.",
   "author": {
     "name": "WeInc",
     "email": "hey@we.inc",
@@ -14,8 +14,11 @@
     "website",
     "website-builder",
     "landing-page",
-    "small-business",
     "publish",
+    "host",
+    "domain",
+    "small-business",
+    "portfolio",
     "mcp"
   ],
   "repository": "https://github.com/umairalisadaqat/weinc-claude-plugin",

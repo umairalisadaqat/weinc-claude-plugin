@@ -1,10 +1,10 @@
 # WeInc plugin for Claude Code
 
-Connects Claude to WeInc (https://we.inc). Get a finished website for your business in seconds and put it online, without leaving the chat. Adds three skills:
+Connects Claude to WeInc (https://we.inc): a live website with its own link in seconds, without leaving the chat. Adds three skills:
 
-- **instant-website** (the default): a finished site in seconds (no AI credits), then publish it to a live weinc.app address if you want.
-- **website-brief**: only when you ask for a custom design from scratch. Interviews you, writes a full brief, and opens it in WeInc (you confirm in your browser).
-- **launch-checklist**: before publishing, checks domain, contact details, SEO title/description and mobile view, then opens the editor with fixes pre-filled.
+- **make-website**: "make me a website". Builds a site from what you already said and publishes it when you say yes.
+- **put-page-online**: "put this online". Takes a page or artifact from the chat and gives it its own live link.
+- **own-domain**: "get a domain". Checks a name and puts your site on a domain you own.
 
 ## Install
 
@@ -28,9 +28,9 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 
 ## Use
 
-- "Make me a website for my bakery and put it online" (or `/weinc:instant-website`)
-- "Design a custom site for my bakery from scratch" (or `/weinc:website-brief`)
-- "I'm about to publish, check my site" (or `/weinc:launch-checklist`)
+- "Make me a website for my bakery" (or `/weinc:make-website`)
+- "Put this page online" (or `/weinc:put-page-online`)
+- "Put my site on mybakery.com" (or `/weinc:own-domain`)
 
 ## WeInc MCP server (any MCP client)
 
@@ -59,23 +59,20 @@ Manual config for clients that read `mcp.json`:
 }
 ```
 
-### Tools (7)
+### Main tools
 
-All tools work on your own WeInc websites only.
+All tools work on your own WeInc websites only. Nothing goes public until you say yes.
 
 | Tool | What it does |
 | --- | --- |
-| `start_website` | Prepares a custom AI-designed website from a description of the business. Returns a link; nothing is built until you confirm in your browser. |
-| `browse_styles` | Shows website styles to choose from, by type of business or keyword. |
-| `create_website` | Builds a finished draft website in your account in seconds with the business details you give, and shows a picture of it. Not published. |
-| `my_websites` | Lists your websites with status, live address, editor link and last update. |
-| `website_details` | Shows one website: published state, live address, custom domains, last publish time. |
-| `publish_website` | Puts one of your websites online at its weinc.app address. Only runs when you ask; Claude asks you to confirm first. |
-| `request_change` | Prepares a change to one of your websites and returns an editor link with the instruction already typed in. Nothing changes until you confirm in WeInc. |
-| `read_website` | Reads the words on one of your websites (headlines, paragraphs, services and what they cost, hours, button labels), each with an id. Read-only. |
-| `edit_website` | Changes the words on one of your websites in the chat. Text only. An undo point is stored first; a live site shows the change after it is published again. |
-| `check_domain` | Checks whether a domain name is free and what it costs a year, and suggests free names. Read-only: nothing is bought from the chat; you confirm and pay on WeInc. |
-| `website_enquiries` | Lists what visitors sent through the forms on your websites: who wrote, how to reach them, what they said and when. Read-only. |
+| `create_website` | Builds a complete draft website in your account in seconds from what you described. |
+| `import_page` | Saves a page from the chat (an artifact or any HTML) as a website, and puts it live if you asked. |
+| `publish_website` | Puts one of your websites online and returns its live link. |
+| `read_website` / `edit_website` | Reads and changes a site's wording from the chat. |
+| `check_domain` | Looks up whether a domain name is available. |
+| `connect_domain` | Puts a site on a domain you already own. |
+| `my_websites` | Lists your websites with status and live address. |
+| `website_enquiries` | Shows messages visitors sent through a site's contact form. |
 
 ## Support
 
