@@ -39,25 +39,6 @@ Then run `/mcp`, pick **weinc**, and sign in with your WeInc account. The connec
 - Sign-in: OAuth 2.1 with dynamic client registration, so your client opens a WeInc sign-in page on first use. No API key.
 - Official MCP Registry name: `io.github.umairalisadaqat/weinc`
 
-### One-click install
-
-- Cursor: [Add WeInc to Cursor](https://cursor.com/install-mcp?name=weinc&config=eyJ1cmwiOiJodHRwczovL215LndlLmluYy9hcGkvbWNwIn0=)
-- VS Code: [Add WeInc to VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=weinc&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmy.we.inc%2Fapi%2Fmcp%22%7D)
-- Claude Code: `claude mcp add --transport http weinc https://my.we.inc/api/mcp`
-- Claude.ai / ChatGPT and other clients: add `https://my.we.inc/api/mcp` as a custom connector.
-
-Manual config for clients that read `mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "weinc": {
-      "type": "http",
-      "url": "https://my.we.inc/api/mcp"
-    }
-  }
-}
-```
 
 ### Main tools
 
