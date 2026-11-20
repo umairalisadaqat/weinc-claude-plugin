@@ -1,7 +1,7 @@
 {
   "name": "weinc",
   "displayName": "WeInc",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A live website with its own link in seconds, right from Claude. Describe your business or paste a page from the chat, and WeInc puts it online; check and connect your own domain too.",
   "author": {
     "name": "WeInc",

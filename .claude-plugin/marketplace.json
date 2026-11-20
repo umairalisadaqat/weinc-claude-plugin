@@ -9,7 +9,7 @@
       "name": "weinc",
       "source": "./",
       "description": "A live website with its own link in seconds, right from Claude.",
-      "version": "0.6.0"
+      "version": "0.6.1"
     }
   ],
   "metadata": {
